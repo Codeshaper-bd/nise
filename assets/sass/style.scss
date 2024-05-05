@@ -55,7 +55,24 @@ Version:        1.0.0
 
 
 ----------------------------------------------------------------*/
-
+//utilities
+.flex-1	{
+   flex: 1 1 0%
+}
+.flex-auto{
+   flex: 1 1 auto;
+}
+.flex-none{
+   flex: none;
+}
+.flex-wrap{
+   flex-wrap: wrap;
+}
+.place-center{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 // helpers
 @import "helpers/variables";
 @import "helpers/functions";
