@@ -19,18 +19,7 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			border-radius: 100%;
-			background-color: #84cc16;
-			color: #fff;
-			font-size: 15px;
-			font-weight: 300;
-			transition: all;
-			transition-duration: 0.3s;
 
-			&:hover {
-				background-color: $theme-primary-color;
-				transform: translateY(-1px);
-			}
 		}
 	}
 }
@@ -39,10 +28,10 @@
 	display: flex;
 	align-items: center;
 	gap: 5px;
-	background-color: rgb(240, 160, 11);
+	background-color: #454f5b;
 	color: white;
 	font-size: 16px;
-	padding: 7px 20px;
+	padding: 11px 20px;
 	border-radius: 4px;
 	transition: all;
 	animation-duration: 0.3s;
@@ -228,7 +217,6 @@
 
 .top-header {
 	padding: 20px 0px;
-	background-color: #dcfce7;
 }
 
 .wpo-site-header {
@@ -236,8 +224,12 @@
 	/* style for navigation less than 992px */
 	/*navbar collaps less then 992px*/
 	/*** cart-search-contact ***/
-	background-color: #fff;
-	padding: 0px;
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(https://zone-ui.vercel.app/assets/background/overlay_1.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-position: center center;
+	background-position: center center;
 }
 
 .wpo-site-header .navigation {
@@ -849,11 +841,10 @@
 
 			>ul>li>a {
 				font-size: 20px;
-				padding: 20px 0px;
+				padding: 22px 0px;
 				margin-right: 30px;
 				display: block;
 				color: #232f4b;
-				font-family: 'Futura PT';
 				font-weight: 500;
 				position: relative;
 				display: inline-block;
