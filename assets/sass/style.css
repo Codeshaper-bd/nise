@@ -76,6 +76,51 @@ Version:        1.0.0
   align-items: center;
 }
 
+.more-info {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 6px;
+}
+.more-info .more-info-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+.more-info .more-info-item {
+  margin-top: 16px;
+}
+.more-info .more-info-image {
+  width: 100%;
+  border: 2px solid #fff;
+  padding: 2px;
+}
+.more-info .more-info-image img {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.more-info .more-info-subheading {
+  margin-top: 14px;
+  font-size: 16px;
+}
+.more-info .more-info-desc p {
+  font-size: 14px;
+}
+
+.nise-widget .nise-subheading {
+  margin-bottom: 14px;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.nise-widget .nise-desc {
+  font-size: 14px;
+  line-height: 20px;
+}
+
 /*--------------------------------------------------------------
 1.1 Theme Reset Style
 --------------------------------------------------------------*/
@@ -957,10 +1002,15 @@ a:hover {
 }
 .blog-sidebar .recent-post-widget .post .img-holder {
   width: 70px;
+  height: 70px;
   float: left;
 }
 .blog-sidebar .recent-post-widget .post .img-holder img {
   border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .blog-sidebar .recent-post-widget .post .details {
   width: calc(100% - 70px);
@@ -968,8 +1018,7 @@ a:hover {
   padding-left: 20px;
 }
 .blog-sidebar .recent-post-widget .post h4 {
-  font-size: 19px;
-  font-size: 1.2666666667rem;
+  font-size: 1.0666666667rem;
   font-weight: 500;
   line-height: 1.3em;
   margin: 0.3em 0 0;
@@ -6038,38 +6087,6 @@ a:hover {
 /*--------------------------------------------------------------
 13. wpo-contact-pg-section
 --------------------------------------------------------------*/
-.wpo-contact-pg-section .contact-sidebar {
-  background-color: #f4f4f4;
-  padding: 20px;
-  border-radius: 6px;
-}
-.wpo-contact-pg-section .contact-sidebar .contact-sidebar-title {
-  font-size: 18px;
-  font-weight: 500;
-  margin-bottom: 12px;
-}
-.wpo-contact-pg-section .contact-sidebar .contact-sidebar-item {
-  margin-top: 16px;
-}
-.wpo-contact-pg-section .contact-sidebar .contact-sidebar-image {
-  width: 100%;
-  border: 2px solid #fff;
-  padding: 2px;
-}
-.wpo-contact-pg-section .contact-sidebar .contact-sidebar-image img {
-  width: 100%;
-  height: -moz-fit-content;
-  height: fit-content;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.wpo-contact-pg-section .contact-sidebar .contact-sidebar-subheading {
-  margin-top: 14px;
-  font-size: 16px;
-}
-.wpo-contact-pg-section .contact-sidebar .contact-sidebar-desc p {
-  font-size: 14px;
-}
 .wpo-contact-pg-section .wpo-contact-title {
   margin-bottom: 50px;
 }

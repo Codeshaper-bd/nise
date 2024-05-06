@@ -73,6 +73,56 @@ Version:        1.0.0
    justify-content: center;
    align-items: center;
 }
+// more info
+
+.more-info{
+	background-color: #f4f4f4;
+	padding: 20px;
+	border-radius: 6px;
+	.more-info-title{
+		font-size: 18px;
+		font-weight: 500;
+		margin-bottom: 12px;
+	}
+	.more-info-item{
+		margin-top: 16px;
+	}
+	.more-info-image{
+		width: 100%;
+		border: 2px solid #fff;
+		padding: 2px;
+		img{
+			width: 100%;
+			height: fit-content;
+			object-fit: cover;
+		}
+	}
+	.more-info-subheading{
+		margin-top: 14px;
+		font-size: 16px;
+	}
+	.more-info-desc{
+		p{
+			font-size: 14px;
+		}
+	}
+}
+
+// news page
+
+.nise-widget{
+	.nise-subheading{
+		margin-bottom: 14px;
+		display: block;
+		font-size: 14px;
+		font-weight: 500;
+		text-transform: uppercase
+	}
+	.nise-desc{
+		font-size: 14px;
+		line-height: 20px;
+	}
+}
 // helpers
 @import "helpers/variables";
 @import "helpers/functions";
