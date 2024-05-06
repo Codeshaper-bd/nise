@@ -1,5 +1,23 @@
 .about-pg-section{
+  .about-card{
+    border: 1px solid $border-color;
+    padding: 25px 20px;
+    border-radius: 6px;
+  }
   .about-icon{
-    
+    height: 60px;
+    width: 60px;
+    background-color: $theme-primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    margin-bottom: 25px;
+  }
+  h3{
+    line-height: 1;
+  }
+  p{
+    font-size: 14px;
   }
 }

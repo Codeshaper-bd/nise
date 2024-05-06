@@ -655,7 +655,7 @@ a:hover {
   background: #232f4b;
   content: "";
   z-index: -1;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 .wpo-breadcumb-area .wpo-breadcumb-wrap {
   text-align: center;
@@ -6660,4 +6660,26 @@ input[type=checkbox]:checked:disabled + label:before {
 }
 .back-home {
   max-width: 150px;
+}
+
+.about-pg-section .about-card {
+  border: 1px solid #eeeeee;
+  padding: 25px 20px;
+  border-radius: 6px;
+}
+.about-pg-section .about-icon {
+  height: 60px;
+  width: 60px;
+  background-color: #3756f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  margin-bottom: 25px;
+}
+.about-pg-section h3 {
+  line-height: 1;
+}
+.about-pg-section p {
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */
