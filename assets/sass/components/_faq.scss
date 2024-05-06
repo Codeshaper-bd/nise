@@ -1,4 +1,8 @@
 .faq-area {
+  border-radius: 6px;
+  .accordion{
+    border-radius: 6px;
+  }
   .accordion-item {
     background-color: #fff;
     border: 1px solid transparent;

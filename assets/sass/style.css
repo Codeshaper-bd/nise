@@ -1236,6 +1236,12 @@ a:hover {
   }
 }
 
+.faq-area {
+  border-radius: 6px;
+}
+.faq-area .accordion {
+  border-radius: 6px;
+}
 .faq-area .accordion-item {
   background-color: #fff;
   border: 1px solid transparent;
@@ -6815,6 +6821,41 @@ input[type=checkbox]:checked:disabled + label:before {
 }
 .wpo-resources-pg-section .wp-resources-link:hover {
   text-decoration: underline;
+}
+.wpo-resources-pg-section.wpo-resources-pg-social .bg-social-card {
+  padding: 20px;
+  border-radius: 6px;
+}
+.wpo-resources-pg-section.wpo-resources-pg-social .bg-social-card img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 6px;
+}
+.wpo-resources-pg-section.wpo-resources-pg-social .bg-social-card h3 {
+  font-size: 18px;
+  line-height: 28px;
+  color: #444444;
+}
+.wpo-resources-pg-section.wpo-resources-pg-social .bg-social-card p {
+  line-height: 1.2;
+}
+
+.resources-list-wrapper {
+  padding: 20px;
+}
+.resources-list-wrapper .list-item {
+  display: flex;
+  gap: 12px;
+}
+.resources-list-wrapper .list-icon img {
+  width: 20px;
+  height: 20px;
+}
+.resources-list-wrapper .list-desc p {
+  margin-top: 8px;
+  line-height: 1;
 }
 
 .more-info {
