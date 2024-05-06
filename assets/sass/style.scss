@@ -76,40 +76,6 @@ Version:        1.0.0
    justify-content: center;
    align-items: center;
 }
-// more info
-
-.more-info{
-	background-color: #f4f4f4;
-	padding: 20px;
-	border-radius: 6px;
-	.more-info-title{
-		font-size: 18px;
-		font-weight: 500;
-		margin-bottom: 12px;
-	}
-	.more-info-item{
-		margin-top: 16px;
-	}
-	.more-info-image{
-		width: 100%;
-		border: 2px solid #fff;
-		padding: 2px;
-		img{
-			width: 100%;
-			height: fit-content;
-			object-fit: cover;
-		}
-	}
-	.more-info-subheading{
-		margin-top: 14px;
-		font-size: 16px;
-	}
-	.more-info-desc{
-		p{
-			font-size: 14px;
-		}
-	}
-}
 
 // news page
 
@@ -179,3 +145,52 @@ Version:        1.0.0
 
 @import "page/_auth-page";
 @import "page/about";
+
+
+// more info
+
+.more-info{
+	background-color: #f4f4f4;
+	padding: 20px;
+	border-radius: 6px;
+	&.about-more-info{
+		margin-top: 40px;
+		.more-info-subheading{
+			h2{
+				font-size: 14px;
+			}
+		}
+	}
+	.more-info-title{
+		font-size: 18px;
+		font-weight: 500;
+		margin-bottom: 12px;
+	}
+	.more-info-item{
+		margin-top: 16px;
+	}
+	.more-info-image{
+		width: 100%;
+		border: 3px solid #fff;
+		display: block;
+		cursor: pointer;
+		&:hover{
+			border-color: $theme-primary-color;
+		}
+		img{
+			width: 100%;
+			height: fit-content;
+			object-fit: cover;
+		}
+	}
+	.more-info-subheading{
+		margin-top: 14px;
+		font-size: 16px;
+	}
+	.more-info-desc{
+		p{
+			font-size: 14px;
+			line-height: 20px;
+		}
+	}
+}

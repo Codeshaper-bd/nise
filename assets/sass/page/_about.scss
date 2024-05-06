@@ -20,4 +20,20 @@
   p{
     font-size: 14px;
   }
+  .section-title{
+    margin-bottom: 16px;
+  }
+  .text-highlight{
+    color: $theme-primary-color;
+    font-size: 16px;
+    
+  }
+  .about-nise-text{
+    font-size: 14px;
+    margin-top: 20px;
+    img{
+      float: left;
+      padding-right: 15px;
+    }
+  }
 }

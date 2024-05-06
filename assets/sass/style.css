@@ -80,39 +80,6 @@ Version:        1.0.0
   align-items: center;
 }
 
-.more-info {
-  background-color: #f4f4f4;
-  padding: 20px;
-  border-radius: 6px;
-}
-.more-info .more-info-title {
-  font-size: 18px;
-  font-weight: 500;
-  margin-bottom: 12px;
-}
-.more-info .more-info-item {
-  margin-top: 16px;
-}
-.more-info .more-info-image {
-  width: 100%;
-  border: 2px solid #fff;
-  padding: 2px;
-}
-.more-info .more-info-image img {
-  width: 100%;
-  height: -moz-fit-content;
-  height: fit-content;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.more-info .more-info-subheading {
-  margin-top: 14px;
-  font-size: 16px;
-}
-.more-info .more-info-desc p {
-  font-size: 14px;
-}
-
 .nise-widget .nise-subheading {
   margin-bottom: 14px;
   display: block;
@@ -6682,4 +6649,63 @@ input[type=checkbox]:checked:disabled + label:before {
 }
 .about-pg-section p {
   font-size: 14px;
+}
+.about-pg-section .section-title {
+  margin-bottom: 16px;
+}
+.about-pg-section .text-highlight {
+  color: #3756f7;
+  font-size: 16px;
+}
+.about-pg-section .about-nise-text {
+  font-size: 14px;
+  margin-top: 20px;
+}
+.about-pg-section .about-nise-text img {
+  float: left;
+  padding-right: 15px;
+}
+
+.more-info {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 6px;
+}
+.more-info.about-more-info {
+  margin-top: 40px;
+}
+.more-info.about-more-info .more-info-subheading h2 {
+  font-size: 14px;
+}
+.more-info .more-info-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+.more-info .more-info-item {
+  margin-top: 16px;
+}
+.more-info .more-info-image {
+  width: 100%;
+  border: 3px solid #fff;
+  display: block;
+  cursor: pointer;
+}
+.more-info .more-info-image:hover {
+  border-color: #3756f7;
+}
+.more-info .more-info-image img {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.more-info .more-info-subheading {
+  margin-top: 14px;
+  font-size: 16px;
+}
+.more-info .more-info-desc p {
+  font-size: 14px;
+  line-height: 20px;
 }/*# sourceMappingURL=style.css.map */
