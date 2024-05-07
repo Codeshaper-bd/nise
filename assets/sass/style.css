@@ -80,6 +80,13 @@ Version:        1.0.0
   align-items: center;
 }
 
+.img-covered {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .nise-widget .nise-subheading {
   margin-bottom: 14px;
   display: block;
@@ -6856,6 +6863,34 @@ input[type=checkbox]:checked:disabled + label:before {
 .resources-list-wrapper .list-desc p {
   margin-top: 8px;
   line-height: 1;
+}
+
+.wpo-info-hero-section .section-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.wpo-info-hero-section .wpo-info-hero-image img {
+  border-radius: 4px;
+}
+.wpo-info-hero-section .wpo-info-hero-text {
+  font-size: 14px;
+  line-height: 24px;
+  color: #444444;
+}
+.wpo-info-hero-section .wpo-info-hero-text strong {
+  font-weight: 500;
+  color: #232f4b;
+}
+.wpo-info-hero-section .download-text {
+  display: block;
+  margin-bottom: 12px;
+}
+.wpo-info-hero-section .download-text:hover {
+  text-decoration: underline;
+}
+.wpo-info-hero-section .reg-text {
+  margin-bottom: 12px;
 }
 
 .more-info {

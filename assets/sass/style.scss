@@ -76,6 +76,11 @@ Version:        1.0.0
    justify-content: center;
    align-items: center;
 }
+.img-covered{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
 
 // news page
 
@@ -145,9 +150,14 @@ Version:        1.0.0
 @import "page/_error-404";
 
 @import "page/_auth-page";
+
 @import "page/_about";
+
 @import "page/_team";
+
 @import "page/_resources";
+
+@import "page/info";
 
 
 // more info

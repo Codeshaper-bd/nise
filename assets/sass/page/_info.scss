@@ -1,0 +1,34 @@
+.wpo-info-hero-section {
+  .section-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+
+  .wpo-info-hero-image {
+    img {
+      border-radius: 4px;
+    }
+  }
+
+  .wpo-info-hero-text {
+    font-size: 14px;
+    line-height: 24px;
+    color: $text-color;
+
+    strong {
+      font-weight: 500;
+      color: $dark-gray;
+    }
+  }
+  .download-text{
+    display: block;
+    margin-bottom: 12px;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+  .reg-text{
+    margin-bottom: 12px;
+  }
+}
