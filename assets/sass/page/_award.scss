@@ -1,0 +1,38 @@
+.grant-list{
+  li{
+
+    gap:10px;
+    position: relative;
+    padding-left: 16px;
+    &::before{
+      position: absolute;
+      content: "";
+      top: 6px;
+      left: 0;
+      height: 8px;
+      width: 8px;
+      background-color: $theme-primary-color;
+      border-radius: 50%;
+    }
+  }
+
+  p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+.awards-contact{
+  h4{
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  p{
+    margin-left: 10px;
+  }
+  a{
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}

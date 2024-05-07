@@ -6960,6 +6960,37 @@ input[type=checkbox]:checked:disabled + label:before {
   margin-left: 2px;
 }
 
+.grant-list li {
+  gap: 10px;
+  position: relative;
+  padding-left: 16px;
+}
+.grant-list li::before {
+  position: absolute;
+  content: "";
+  top: 6px;
+  left: 0;
+  height: 8px;
+  width: 8px;
+  background-color: #3756f7;
+  border-radius: 50%;
+}
+.grant-list p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.awards-contact h4 {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.awards-contact p {
+  margin-left: 10px;
+}
+.awards-contact a:hover {
+  text-decoration: underline;
+}
+
 .more-info {
   background-color: #f4f4f4;
   padding: 24px;
@@ -7012,6 +7043,7 @@ input[type=checkbox]:checked:disabled + label:before {
 .bg-card-shadow .card-title {
   padding-left: 12px;
   padding-top: 20px;
+  font-size: 16px;
 }
 .bg-card-shadow .card-body {
   padding-top: 0px;
