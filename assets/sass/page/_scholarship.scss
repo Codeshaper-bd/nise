@@ -1,0 +1,62 @@
+.wpo-scholarship-top {
+  h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+.wpo-scholarship-blog-single-item {
+  padding: 16px;
+
+  &:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .card-body {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0px;
+  }
+
+  .wpo-scholarship-blog-img {
+    flex: none;
+    width: 230px;
+    height: fit-content;
+    overflow: hidden;
+
+    img {
+      border-radius: 4px;
+      transform: scale(1);
+      transition: all 0.3s;
+      &:hover{
+        transform: scale(1.1);
+      }
+
+    }
+  }
+
+  .wpo-scholarship-content {
+    flex: 1 1 auto;
+  }
+
+  &.wpo-blog-reverse .card-body {
+    flex-direction: row-reverse;
+  }
+}

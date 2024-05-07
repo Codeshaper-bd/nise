@@ -628,17 +628,12 @@ a:hover {
 .wpo-breadcumb-area {
   background: url(../images/all/pattern.jpg);
   background-repeat: repeat-x;
-  min-height: 200px;
+  min-height: 100px;
   position: relative;
   display: flex;
   justify-content: center;
   flex-direction: column;
   z-index: 1;
-}
-@media (max-width: 767px) {
-  .wpo-breadcumb-area {
-    min-height: 250px;
-  }
 }
 .wpo-breadcumb-area:before {
   position: absolute;
@@ -655,11 +650,8 @@ a:hover {
   text-align: center;
 }
 .wpo-breadcumb-area .wpo-breadcumb-wrap h2 {
-  font-size: 60px;
+  font-size: 24px;
   color: #fff;
-  line-height: 60px;
-  margin-top: -10px;
-  margin-bottom: 20px;
 }
 @media (max-width: 767px) {
   .wpo-breadcumb-area .wpo-breadcumb-wrap h2 {
@@ -6960,12 +6952,12 @@ input[type=checkbox]:checked:disabled + label:before {
   margin-left: 2px;
 }
 
-.grant-list li {
+.bullet-point-list li {
   gap: 10px;
   position: relative;
   padding-left: 16px;
 }
-.grant-list li::before {
+.bullet-point-list li::before {
   position: absolute;
   content: "";
   top: 6px;
@@ -6975,7 +6967,7 @@ input[type=checkbox]:checked:disabled + label:before {
   background-color: #3756f7;
   border-radius: 50%;
 }
-.grant-list p {
+.bullet-point-list p {
   font-size: 14px;
   line-height: 20px;
 }
@@ -6989,6 +6981,97 @@ input[type=checkbox]:checked:disabled + label:before {
 }
 .awards-contact a:hover {
   text-decoration: underline;
+}
+
+.about-grants-bob .auth-img {
+  flex: none;
+  overflow: hidden;
+  width: 250px;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 4px;
+  display: block;
+}
+.about-grants-bob .auth-img img {
+  transition: all 0.3s;
+  transform: scale(1);
+}
+.about-grants-bob .auth-img img:hover {
+  transform: scale(1.2);
+}
+.about-grants-bob .auth-content h3 {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #3756f7;
+}
+.about-grants-bob .subtitle {
+  font-size: 16px;
+  color: #3756f7;
+}
+.about-grants-bob p {
+  font-size: 13px;
+  line-height: 19px;
+  margin-bottom: 10px;
+}
+.about-grants-bob a {
+  color: #777777;
+  font-weight: 500;
+}
+.about-grants-bob a:hover {
+  color: #3756f7;
+  text-decoration: underline;
+}
+
+.wpo-scholarship-top h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.wpo-scholarship-top p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.wpo-scholarship-blog-single-item {
+  padding: 16px;
+}
+.wpo-scholarship-blog-single-item:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.wpo-scholarship-blog-single-item h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.wpo-scholarship-blog-single-item p {
+  font-size: 14px;
+  line-height: 20px;
+}
+.wpo-scholarship-blog-single-item .card-body {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0px;
+}
+.wpo-scholarship-blog-single-item .wpo-scholarship-blog-img {
+  flex: none;
+  width: 230px;
+  height: -moz-fit-content;
+  height: fit-content;
+  overflow: hidden;
+}
+.wpo-scholarship-blog-single-item .wpo-scholarship-blog-img img {
+  border-radius: 4px;
+  transform: scale(1);
+  transition: all 0.3s;
+}
+.wpo-scholarship-blog-single-item .wpo-scholarship-blog-img img:hover {
+  transform: scale(1.1);
+}
+.wpo-scholarship-blog-single-item .wpo-scholarship-content {
+  flex: 1 1 auto;
+}
+.wpo-scholarship-blog-single-item.wpo-blog-reverse .card-body {
+  flex-direction: row-reverse;
 }
 
 .more-info {

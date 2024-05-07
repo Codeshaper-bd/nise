@@ -1,0 +1,48 @@
+
+
+.about-grants-bob {
+ 
+  .auth-img {
+    flex: none;
+    overflow: hidden;
+    width: 250px;
+    height: fit-content;
+    border-radius: 4px;
+    display: block;
+
+    img {
+      transition: all 0.3s;
+      transform: scale(1);
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+
+  }
+
+  .auth-content {
+    h3 {
+      margin-top: 5px;
+      font-size: 14px;
+      color: $theme-primary-color;
+    }
+  }
+  .subtitle{
+    font-size: 16px;
+    color: $theme-primary-color;
+  }
+  p{
+    font-size: 13px;
+    line-height: 19px;
+    margin-bottom: 10px;
+  }
+  a{
+    color: $body-color;
+    font-weight: 500;
+    &:hover{
+      color: $theme-primary-color;
+      text-decoration: underline;
+    }
+  }
+}

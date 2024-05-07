@@ -3,16 +3,14 @@
 .wpo-breadcumb-area {
     background: url(../images/all/pattern.jpg) ;
 		background-repeat: repeat-x;
-    min-height: 200px;
+    min-height: 100px;
     position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
     z-index: 1;
 
-	@media(max-width: 767px) {
-		min-height: 250px;
-	}
+
 
 	&:before{
 		position: absolute;
@@ -29,11 +27,8 @@
 		text-align: center;
 
 		h2{
-			font-size: 60px;
+			font-size: 24px;
 			color: #fff;
-			line-height: 60px;
-			margin-top: -10px;
-			margin-bottom: 20px;
 
 			@media(max-width: 767px) {
 				font-size: 30px;
