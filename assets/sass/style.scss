@@ -90,7 +90,27 @@ Version:        1.0.0
 
 .space-y-6 {
 	&>*+* {
+		margin-top: 24px;
+	}
+}
+.space-y-5 {
+	&>*+* {
 		margin-top: 20px;
+	}
+}
+.space-y-4 {
+	&>*+* {
+		margin-top: 16px;
+	}
+}
+.space-y-3 {
+	&>*+* {
+		margin-top: 12px;
+	}
+}
+.space-y-2 {
+	&>*+* {
+		margin-top: 8px;
 	}
 }
 
@@ -238,8 +258,8 @@ Version:        1.0.0
 	box-shadow: 0px 1px 15px 0px rgba(62, 65, 159, 0.1);
 
 	.card-title {
-		margin-left: 12px;
-		margin-top: 20px;
+		padding-left: 12px;
+		padding-top: 20px;
 	}
 
 	.card-body {

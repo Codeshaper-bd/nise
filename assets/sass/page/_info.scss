@@ -1,5 +1,5 @@
 .wpo-info-hero-section {
- 
+
   .section-title {
     font-size: 18px;
     font-weight: 500;
@@ -22,17 +22,73 @@
       color: $dark-gray;
     }
   }
-  .download-text{
+
+  .download-text {
     display: block;
     margin-bottom: 12px;
-    &:hover{
+
+    &:hover {
       text-decoration: underline;
     }
   }
-  .reg-text{
+
+  .reg-text {
     margin-bottom: 12px;
   }
 }
-.wpo-info-main-section{
+
+.wpo-info-main-section {
   padding-top: 0px;
+}
+
+.wpo-info-sidebar {
+  .call-widget {
+    .info-image{
+      height: 80px;
+      width: 120px;
+      display: block;
+      background-color: $border-color;
+      img{
+        border-radius: 2px;
+        transform: scale(1);
+        transition: all 0.3s;
+        &:hover{
+          transform:  scale(0.9);
+        }
+      }
+    }
+    .card-body {
+      margin-top: 16px;
+      p{
+        font-size: 15px;
+        line-height: 22px;
+      }
+      a{
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .info-widget{
+    .card-subtitle{
+      font-size: 16px;
+      margin-top: 14px;
+    }
+    ul{
+      li{
+        display: flex;
+        .label {
+          display: block;
+          min-width: 90px;
+          max-width: 90px;
+          font-weight: 500;
+        }
+        .value{
+          display: block;
+          margin-left: 2px;
+        }
+      }
+    }
+  }
 }
