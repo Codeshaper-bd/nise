@@ -56,47 +56,61 @@ Version:        1.0.0
 
 ----------------------------------------------------------------*/
 //utilities
-.flex{
+.flex {
 	display: flex;
 }
-.flex-1	{
-   flex: 1 1 0%
+
+.flex-1 {
+	flex: 1 1 0%
 }
-.flex-auto{
-   flex: 1 1 auto;
+
+.flex-auto {
+	flex: 1 1 auto;
 }
-.flex-none{
-   flex: none;
+
+.flex-none {
+	flex: none;
 }
-.flex-wrap{
-   flex-wrap: wrap;
+
+.flex-wrap {
+	flex-wrap: wrap;
 }
-.place-center{
-   display: flex;
-   justify-content: center;
-   align-items: center;
+
+.place-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-.img-covered{
+
+.img-covered {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
 }
 
+.space-y-6 {
+	&>*+* {
+		margin-top: 20px;
+	}
+}
+
 // news page
 
-.nise-widget{
-	.nise-subheading{
+.nise-widget {
+	.nise-subheading {
 		margin-bottom: 14px;
 		display: block;
 		font-size: 14px;
 		font-weight: 500;
 		text-transform: uppercase
 	}
-	.nise-desc{
+
+	.nise-desc {
 		font-size: 14px;
 		line-height: 20px;
 	}
 }
+
 // helpers
 @import "helpers/variables";
 @import "helpers/functions";
@@ -162,54 +176,86 @@ Version:        1.0.0
 
 // more info
 
-.more-info{
+.more-info {
 	background-color: #f4f4f4;
-	padding: 20px;
+	padding: 24px;
 	border-radius: 6px;
-	&.about-more-info{
+
+	&.about-more-info {
 		margin-top: 40px;
-		.more-info-subheading{
-			h2{
+
+		.more-info-subheading {
+			h2 {
 				font-size: 14px;
 			}
 		}
 	}
-	.more-info-title{
+
+	.more-info-title {
 		font-size: 18px;
 		font-weight: 500;
 		margin-bottom: 12px;
 	}
-	.more-info-item{
+
+	.more-info-item {
 		margin-top: 16px;
 	}
-	.more-info-image{
+
+	.more-info-image {
 		width: 100%;
 		border: 3px solid #fff;
 		display: block;
 		cursor: pointer;
-		&:hover{
+
+		&:hover {
 			border-color: $theme-primary-color;
 		}
-		img{
+
+		img {
 			width: 100%;
 			height: fit-content;
 			object-fit: cover;
 		}
 	}
-	.more-info-subheading{
+
+	.more-info-subheading {
 		margin-top: 14px;
 		font-size: 16px;
 	}
-	.more-info-desc{
-		p{
+
+	.more-info-desc {
+		p {
 			font-size: 14px;
 			line-height: 20px;
 		}
 	}
 }
 
-.bg-card-shadow{
+
+.bg-card-shadow {
+	border: none;
 	background: #fff;
 	box-shadow: 0px 1px 15px 0px rgba(62, 65, 159, 0.1);
+
+	.card-title {
+		margin-left: 12px;
+		margin-top: 20px;
+	}
+
+	.card-body {
+		padding-top: 0px;
+	}
 }
 
+.w-full-map {
+	width: 100%;
+	height: 400px;
+	margin-top: 16px;
+	iframe {
+		width: 100%;
+		height: 100%;
+		border: 0;
+		outline: 0;
+	}
+
+}
