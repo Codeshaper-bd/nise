@@ -6696,6 +6696,7 @@ input[type=checkbox]:checked:disabled + label:before {
   border: 1px solid #eeeeee;
   padding: 25px 20px;
   border-radius: 6px;
+  padding-bottom: 0px;
 }
 .about-pg-section .about-icon {
   height: 60px;
