@@ -626,28 +626,7 @@ a:hover {
 }
 
 .wpo-breadcumb-area {
-  background: url(../images/all/pattern.jpg);
-  background-repeat: repeat-x;
-  min-height: 100px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  z-index: 1;
-}
-.wpo-breadcumb-area:before {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: #232f4b;
-  content: "";
-  z-index: -1;
-  opacity: 0.6;
-}
-.wpo-breadcumb-area .wpo-breadcumb-wrap {
-  text-align: center;
+  margin-top: 20px;
 }
 .wpo-breadcumb-area .wpo-breadcumb-wrap h2 {
   font-size: 24px;
@@ -662,7 +641,7 @@ a:hover {
 }
 .wpo-breadcumb-area .wpo-breadcumb-wrap ul li {
   display: inline-block;
-  padding: 0px 5px;
+  padding: 10px 5px;
   color: #fff;
   position: relative;
   font-size: 20px;
@@ -674,19 +653,23 @@ a:hover {
   }
 }
 .wpo-breadcumb-area .wpo-breadcumb-wrap ul li:after {
-  content: "/";
+  font-family: "themify";
+  content: "\e649";
   position: relative;
   left: 7px;
+  font-size: 13px;
+  color: #232f4b;
 }
 .wpo-breadcumb-area .wpo-breadcumb-wrap ul li:last-child span {
   color: #cbd4fd;
+  color: #232f4b;
 }
 .wpo-breadcumb-area .wpo-breadcumb-wrap ul li:last-child:after {
   display: none;
 }
 .wpo-breadcumb-area .wpo-breadcumb-wrap ul li a {
-  color: #fff;
-  font-size: 20px;
+  color: #232f4b;
+  font-size: 16px;
   transition: all 0.3s;
 }
 .wpo-breadcumb-area .wpo-breadcumb-wrap ul li a:hover {
@@ -1503,7 +1486,7 @@ a:hover {
   /* style for navigation less than 992px */
   /*navbar collaps less then 992px*/
   /*** cart-search-contact ***/
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(https://zone-ui.vercel.app/assets/background/overlay_1.jpg);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8)), url(https://zone-ui.vercel.app/assets/background/overlay_1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   -webkit-background-position: center center;
@@ -6148,7 +6131,7 @@ a:hover {
 }
 .wpo-contact-pg-section .wpo-contact-title h2 {
   font-size: 35px;
-  font-size: 2.3333333333rem;
+  font-size: 22px;
   font-weight: 600;
   margin-bottom: 20px;
 }
@@ -6274,14 +6257,16 @@ a:hover {
 }
 .wpo-contact-pg-section .office-info .office-info-item {
   text-align: center;
-  box-shadow: 0px 5px 15px 0px rgba(62, 65, 159, 0.1);
-  padding: 40px;
+  box-shadow: 0px 5px 15px 0px rgba(62, 65, 159, 0.2);
+  padding: 5px;
+  padding-top: 10px;
+  min-height: 170px;
 }
 .wpo-contact-pg-section .office-info .office-info-item .office-info-icon {
-  width: 65px;
-  height: 65px;
+  width: 55px;
+  height: 55px;
   background: #f5f5f5;
-  line-height: 65px;
+  line-height: 55px;
   text-align: center;
   margin: 0 auto;
   border-radius: 50%;
@@ -6297,17 +6282,19 @@ a:hover {
   height: 30px;
 }
 .wpo-contact-pg-section .office-info .office-info-item .office-info-text h2 {
-  font-size: 30px;
+  font-size: 18px;
   font-weight: 500;
   margin: 8px 0;
 }
 .wpo-contact-pg-section .office-info .office-info-item .office-info-text p {
   margin-bottom: 0;
+  font-size: 13px;
+  line-height: 19px;
 }
 .wpo-contact-pg-section .wpo-contact-form-area {
   padding: 50px;
   background: #fff;
-  box-shadow: 0px 1px 15px 0px rgba(62, 65, 159, 0.1);
+  box-shadow: 0px 1px 15px 0px rgba(62, 65, 159, 0.2);
   padding-bottom: 0;
   position: relative;
   z-index: 99;
@@ -7143,7 +7130,7 @@ input[type=checkbox]:checked:disabled + label:before {
 .bg-card-shadow {
   border: none;
   background: #fff;
-  box-shadow: 0px 1px 15px 0px rgba(62, 65, 159, 0.1);
+  box-shadow: 0px 1px 15px 0px rgba(62, 65, 159, 0.2);
 }
 .bg-card-shadow .card-title {
   padding-left: 12px;
