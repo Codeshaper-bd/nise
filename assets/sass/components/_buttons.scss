@@ -178,3 +178,27 @@
 	display: block;
 	margin-top: 20px;
 }
+
+.btn-subscribe {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	background-color: #454f5b;
+	color: white;
+	font-size: 16px;
+	padding: 11px 20px;
+	border-radius: 6px;
+	transition: all;
+	animation-duration: 0.3s;
+
+	&:hover {
+		color: white;
+		background-color: $theme-primary-color;
+	}
+
+	svg {
+		height: 18px;
+		width: 18px;
+		color: #fff;
+	}
+}
