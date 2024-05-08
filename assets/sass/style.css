@@ -203,7 +203,7 @@ a:hover {
 }
 
 .section-padding {
-  padding: 60px 0;
+  padding: 30px 0;
 }
 @media (max-width: 767px) {
   .section-padding {
@@ -1273,10 +1273,10 @@ a:hover {
 }
 .faq-area .accordion-button {
   color: #444444;
-  font-size: 14px;
   font-weight: 500;
   line-height: 20px;
-  padding: 10px 30px;
+  padding: 20px 30px;
+  align-items: normal;
 }
 .faq-area .accordion-button:not(.collapsed) {
   color: #232f4b;
@@ -1292,9 +1292,7 @@ a:hover {
 .faq-area .accordion-body {
   padding-top: 0px;
   color: #676767;
-  font-size: 14px;
-  line-height: 20px;
-  padding: 10px 30px;
+  padding: 0px 30px;
 }
 
 /*--------------------------------------------------------------
@@ -6732,6 +6730,19 @@ input[type=checkbox]:checked:disabled + label:before {
   background-position: center center;
   background-size: cover;
 }
+.about-pg-section .about-card h3 {
+  line-height: 1;
+  color: #fff;
+}
+.about-pg-section .about-card small {
+  line-height: 1;
+  color: #fff;
+}
+.about-pg-section .about-card p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+}
 .about-pg-section .about-icon {
   height: 60px;
   width: 60px;
@@ -6742,28 +6753,22 @@ input[type=checkbox]:checked:disabled + label:before {
   border-radius: 6px;
   margin-bottom: 25px;
 }
-.about-pg-section h3 {
-  line-height: 1;
-  color: #fff;
-}
-.about-pg-section small {
-  line-height: 1;
-  color: #fff;
-}
-.about-pg-section p {
-  font-size: 16px;
-  line-height: 26px;
-  color: #fff;
-}
 .about-pg-section .section-title {
   margin-bottom: 16px;
 }
 .about-pg-section .text-highlight {
-  color: #a1a1d7;
-  font-size: 16px;
+  color: #ec8d06;
+  font-size: 17px;
+  line-height: 27px;
+  margin: 30px 0px 30px;
+  background: rgba(236, 141, 6, 0.1411764706);
+  padding: 15px 20px;
+  border-radius: 6px;
 }
 .about-pg-section .about-nise-text {
   margin-top: 20px;
+  font-size: 16px;
+  line-height: 26px;
 }
 .about-pg-section .about-nise-text img {
   float: left;
@@ -7162,10 +7167,6 @@ input[type=checkbox]:checked:disabled + label:before {
 .more-info .more-info-subheading {
   margin-top: 14px;
   font-size: 16px;
-}
-.more-info .more-info-desc p {
-  font-size: 14px;
-  line-height: 20px;
 }
 
 .bg-card-shadow {

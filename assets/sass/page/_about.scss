@@ -22,6 +22,19 @@
     background: url(http://www.nise.us/images/bg1.jpg);
     background-position: center center;
     background-size: cover;
+    h3{
+      line-height: 1;
+      color: #fff;
+    }
+    small{
+      line-height: 1;
+      color: #fff;
+    }
+    p{
+      font-size: 16px;
+      line-height: 26px;
+      color: #fff;
+    }
   }
   .about-icon{
     height: 60px;
@@ -33,29 +46,23 @@
     border-radius: 6px;
     margin-bottom: 25px;
   }
-  h3{
-    line-height: 1;
-    color: #fff;
-  }
-  small{
-    line-height: 1;
-    color: #fff;
-  }
-  p{
-    font-size: 16px;
-    line-height: 26px;
-    color: #fff;
-  }
   .section-title{
     margin-bottom: 16px;
   }
   .text-highlight{
-    color: $theme-primary-color;
-    font-size: 16px;
-    
+    color: #ec8d06;
+    font-size: 17px;
+    line-height: 27px;
+    margin: 30px 0px 30px;
+    background: #ec8d0624;
+    padding: 15px 20px;
+    border-radius: 6px;
   }
+  
   .about-nise-text{
     margin-top: 20px;
+    font-size: 16px;
+    line-height: 26px;
     img{
       float: left;
       padding-right: 15px;
