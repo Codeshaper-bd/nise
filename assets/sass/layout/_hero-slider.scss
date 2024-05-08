@@ -203,10 +203,10 @@
 
 	.slide-title h2 {
 		font-size: 30px;
-		font-weight: 900;
-		line-height: 40px;
-		margin: 10px 0 15px;
-		color: #fff;
+    font-weight: 900;
+    line-height: 40px;
+    margin: 10px 0 5px;
+    color: #fff;
 	}
 
 	@media (max-width: 1199px) {
@@ -242,12 +242,13 @@
 	}
 
 	.slide-text p {
-		font-size: 22px;
-		color: #fff;
-		line-height: 35px;
-		max-width: 680px;
-		margin-bottom: 40px;
-		color: #e2e2e2;
+		font-size: 19px;
+    color: #fff;
+    line-height: 29px;
+    max-width: 680px;
+    margin-bottom: 50px;
+    color: #e2e2e2;
+    font-weight: 400;
 	}
 
 	@media (max-width: 991px) {
