@@ -1304,6 +1304,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .btn-subscribe {
@@ -1466,7 +1467,7 @@ a:hover {
 
 /* 2.2 navigation */
 .top-header {
-  padding: 20px 0px;
+  padding: 40px 0px;
 }
 
 .wpo-site-header {
@@ -1516,7 +1517,6 @@ a:hover {
 }
 
 .top-logo {
-  max-width: 210px;
   height: auto;
   border-radius: 5px;
 }

@@ -19,7 +19,7 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
-
+			cursor: pointer;
 		}
 	}
 }
@@ -216,7 +216,7 @@
 
 
 .top-header {
-	padding: 20px 0px;
+	padding: 40px 0px;
 }
 
 .wpo-site-header {
@@ -276,7 +276,6 @@
 }
 
 .top-logo {
-	max-width: 210px;
 	height: auto;
 	border-radius: 5px;
 }
