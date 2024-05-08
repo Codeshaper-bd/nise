@@ -1,8 +1,5 @@
 @media(max-width: 1700px) {
-  .wpo-site-header {
-      padding: 0 30px;
-  }
-
+  
   .wpo-hero-section-1 .right-img2 {
       left: 38px;
   }
@@ -12,10 +9,6 @@
 @media(max-width: 1500px) {
   .wpo-site-header #navbar>ul>li>a {
       padding: 30px 15px;
-  }
-
-  .wpo-site-header {
-      padding: 0 10px;
   }
 
   .wpo-hero-section-1 .right-img2 {
