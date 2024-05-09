@@ -161,13 +161,13 @@ body {
 }
 
 .main-container {
-  padding: 30px;
+  padding: 22px;
 }
 
 p {
   font-size: 16px;
   color: #777777;
-  line-height: 1.8em;
+  line-height: 1.5em;
 }
 
 h1,
@@ -2829,7 +2829,8 @@ a:hover {
 
 .wpo-footer-area {
   margin: 0px 30px;
-  padding: 20px 30px;
+  padding: 30px 30px;
+  padding-top: 40px;
   border-top: 1px solid #eeeeee;
 }
 .wpo-footer-area .footer-nav-item {
@@ -2837,8 +2838,13 @@ a:hover {
   flex-wrap: wrap;
   gap: 28px;
 }
+@media screen and (max-width: 900px) {
+  .wpo-footer-area .footer-nav-item {
+    gap: 16px;
+  }
+}
 .wpo-footer-area .footer-nav-item a {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 600;
   color: #232f4b;
   display: block;
@@ -6863,6 +6869,17 @@ input[type=checkbox]:checked:disabled + label:before {
 .wpo-info-main-section {
   padding-top: 0px;
 }
+.wpo-info-main-section .bg-card-shadow {
+  padding: 16px;
+}
+.wpo-info-main-section .bg-card-shadow .card-title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+.wpo-info-main-section p {
+  font-weight: 500;
+}
 
 .wpo-info-sidebar .call-widget .info-image {
   height: 80px;
@@ -6884,6 +6901,7 @@ input[type=checkbox]:checked:disabled + label:before {
 .wpo-info-sidebar .call-widget .card-body p {
   font-size: 15px;
   line-height: 22px;
+  margin-bottom: 0px;
 }
 .wpo-info-sidebar .call-widget .card-body a:hover {
   text-decoration: underline;
@@ -7001,9 +7019,6 @@ input[type=checkbox]:checked:disabled + label:before {
   line-height: 20px;
 }
 .wpo-scholarship-blog-single-item .card-body {
-  display: flex;
-  align-items: center;
-  gap: 12px;
   padding: 0px;
 }
 @media screen and (max-width: 768px) {
@@ -7026,8 +7041,12 @@ input[type=checkbox]:checked:disabled + label:before {
 .wpo-scholarship-blog-single-item .wpo-scholarship-blog-img img:hover {
   transform: scale(1.1);
 }
-.wpo-scholarship-blog-single-item .wpo-scholarship-content {
-  flex: 1 1 auto;
+.wpo-scholarship-blog-single-item .wpo-scholarship-content h3 {
+  font-size: 22px;
+}
+.wpo-scholarship-blog-single-item .wpo-scholarship-content p {
+  font-size: 16px;
+  line-height: 26px;
 }
 .wpo-scholarship-blog-single-item.wpo-blog-reverse .card-body {
   flex-direction: row-reverse;
@@ -7036,6 +7055,20 @@ input[type=checkbox]:checked:disabled + label:before {
   .wpo-scholarship-blog-single-item.wpo-blog-reverse .card-body {
     flex-direction: column;
   }
+}
+
+.wpo-scholarship-hero-section .bg-card-shadow {
+  background: linear-gradient(#f8fafc, #f0fdf4, #f4f4f4);
+  padding: 20px 25px;
+}
+.wpo-scholarship-hero-section .bg-card-shadow .card-title {
+  padding-left: 12px;
+  padding-top: 20px;
+  font-size: 24px;
+}
+
+.scholarship-sidebar.blog-sidebar .nise-widget {
+  background: linear-gradient(to bottom, #f8fafc, #f0fdf4, #f4f4f4);
 }
 
 .more-info {
@@ -7095,6 +7128,10 @@ input[type=checkbox]:checked:disabled + label:before {
 }
 .bg-card-shadow .card-body {
   padding-top: 0px;
+}
+
+.bg-gradient-shadow {
+  background: linear-gradient(to right, #f8fafc, #f0fdf4, #f4f4f4) !important;
 }
 
 .w-full-map {

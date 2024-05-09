@@ -38,52 +38,75 @@
 
 .wpo-info-main-section {
   padding-top: 0px;
+
+  .bg-card-shadow {
+    padding: 16px;
+    .card-title {
+      font-weight: 700;
+      font-size: 18px;
+      margin-bottom: 12px;
+    }
+  }
+  p{
+    font-weight: 500;
+  }
 }
 
 .wpo-info-sidebar {
   .call-widget {
-    .info-image{
+    .info-image {
       height: 80px;
       width: 120px;
       display: block;
       background-color: $border-color;
-      img{
+
+      img {
         border-radius: 2px;
         transform: scale(1);
         transition: all 0.3s;
-        &:hover{
-          transform:  scale(0.9);
+
+        &:hover {
+          transform: scale(0.9);
         }
       }
+
     }
+
     .card-body {
       margin-top: 16px;
-      p{
+
+      p {
         font-size: 15px;
         line-height: 22px;
+        margin-bottom: 0px;
       }
-      a{
-        &:hover{
+
+      a {
+        &:hover {
           text-decoration: underline;
         }
       }
     }
   }
-  .info-widget{
-    .card-subtitle{
+
+  .info-widget {
+    .card-subtitle {
       font-size: 16px;
       margin-top: 14px;
     }
-    ul{
-      li{
+
+    ul {
+      li {
         display: flex;
+
         .label {
           display: block;
           min-width: 90px;
           max-width: 90px;
           font-weight: 500;
         }
-        .value{
+
+        .value {
           display: block;
           margin-left: 2px;
         }
