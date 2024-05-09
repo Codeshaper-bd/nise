@@ -1,14 +1,6 @@
 .wpo-resources-pg-section {
 
-  .resource-title {
-    font-size: 18px;
-    font-weight: 600;
-    color: $dark-gray;
-    text-align: center;
-    padding: 10px 0px;
-    border-bottom: 1px solid $border-color;
-  }
-
+ 
   .wpo-resources-item {
     padding: 24px;
     border-radius: 6px;
@@ -108,4 +100,13 @@
      line-height: 1;
     }
   }
+}
+
+.resource-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: $dark-gray;
+  text-align: center;
+  padding: 10px 0px;
+  border-bottom: 1px solid $border-color;
 }

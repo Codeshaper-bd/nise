@@ -6166,9 +6166,6 @@ a:hover {
 /*--------------------------------------------------------------
 13. wpo-contact-pg-section
 --------------------------------------------------------------*/
-.wpo-contact-pg-section {
-  padding: 100px 0px;
-}
 .wpo-contact-pg-section .wpo-contact-title {
   margin-bottom: 50px;
 }
@@ -6306,9 +6303,7 @@ a:hover {
 .wpo-contact-pg-section .office-info .office-info-item {
   text-align: center;
   box-shadow: 0px 5px 15px 0px rgba(62, 65, 159, 0.2);
-  padding: 5px;
-  padding-top: 10px;
-  min-height: 170px;
+  padding: 15px;
 }
 .wpo-contact-pg-section .office-info .office-info-item .office-info-icon {
   width: 55px;
@@ -6885,14 +6880,6 @@ input[type=checkbox]:checked:disabled + label:before {
   margin-top: 95px;
 }
 
-.wpo-resources-pg-section .resource-title {
-  font-size: 18px;
-  font-weight: 600;
-  color: #232f4b;
-  text-align: center;
-  padding: 10px 0px;
-  border-bottom: 1px solid #eeeeee;
-}
 .wpo-resources-pg-section .wpo-resources-item {
   padding: 24px;
   border-radius: 6px;
@@ -6973,6 +6960,15 @@ input[type=checkbox]:checked:disabled + label:before {
 .resources-list-wrapper .list-desc p {
   margin-top: 8px;
   line-height: 1;
+}
+
+.resource-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #232f4b;
+  text-align: center;
+  padding: 10px 0px;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .wpo-info-hero-section .section-title {
