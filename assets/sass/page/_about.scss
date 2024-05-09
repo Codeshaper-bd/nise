@@ -1,19 +1,26 @@
-.about-pg-section{
+.about-pg-section {
+  .top-card-area {
+    .row>* {
+
+      padding-right: 4px;
+      padding-left: 4px;
+
+    }
+  }
+
   .more-info .more-info-subheading {
     margin-top: 14px;
     font-size: 16px;
     color: $dark-gray;
-}
-.more-info .more-info-desc p {
-  font-size: 16px;
-  line-height: 26px;
-  color: $small-black;
-}
-  .about-card{
-    // border: 1px solid $border-color;
-    // padding: 25px 20px;
-    // border-radius: 6px;
-    // padding-bottom: 0px;
+  }
+
+  .more-info .more-info-desc p {
+    font-size: 16px;
+    line-height: 26px;
+    color: $small-black;
+  }
+
+  .about-card {
 
     border: 1px solid #eeeeee;
     padding: 25px 20px 5px;
@@ -22,21 +29,27 @@
     background: url(http://www.nise.us/images/bg1.jpg);
     background-position: center center;
     background-size: cover;
-    h3{
+
+    h3 {
+      font-size: 25px;
       line-height: 1;
       color: #fff;
     }
-    small{
+
+    small {
       line-height: 1;
       color: #fff;
+      font-size: 18px;
     }
-    p{
+
+    p {
       font-size: 16px;
       line-height: 26px;
       color: #fff;
     }
   }
-  .about-icon{
+
+  .about-icon {
     height: 60px;
     width: 60px;
     background-color: rgb(248 207 149);
@@ -46,24 +59,27 @@
     border-radius: 6px;
     margin-bottom: 25px;
   }
-  .section-title{
+
+  .section-title {
     margin-bottom: 16px;
   }
-  .text-highlight{
+
+  .text-highlight {
     color: #ec8d06;
     font-size: 17px;
     line-height: 27px;
-    margin: 30px 0px 30px;
+    margin: 16px 0px 16px;
     background: #ec8d0624;
     padding: 15px 20px;
     border-radius: 6px;
   }
-  
-  .about-nise-text{
+
+  .about-nise-text {
     margin-top: 20px;
     font-size: 16px;
     line-height: 26px;
-    img{
+
+    img {
       float: left;
       padding-right: 15px;
     }

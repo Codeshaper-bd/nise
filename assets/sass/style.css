@@ -6740,6 +6740,10 @@ input[type=checkbox]:checked:disabled + label:before {
   max-width: 150px;
 }
 
+.about-pg-section .top-card-area .row > * {
+  padding-right: 4px;
+  padding-left: 4px;
+}
 .about-pg-section .more-info .more-info-subheading {
   margin-top: 14px;
   font-size: 16px;
@@ -6760,12 +6764,14 @@ input[type=checkbox]:checked:disabled + label:before {
   background-size: cover;
 }
 .about-pg-section .about-card h3 {
+  font-size: 25px;
   line-height: 1;
   color: #fff;
 }
 .about-pg-section .about-card small {
   line-height: 1;
   color: #fff;
+  font-size: 18px;
 }
 .about-pg-section .about-card p {
   font-size: 16px;
@@ -6789,7 +6795,7 @@ input[type=checkbox]:checked:disabled + label:before {
   color: #ec8d06;
   font-size: 17px;
   line-height: 27px;
-  margin: 30px 0px 30px;
+  margin: 16px 0px 16px;
   background: rgba(236, 141, 6, 0.1411764706);
   padding: 15px 20px;
   border-radius: 6px;
@@ -7179,7 +7185,7 @@ input[type=checkbox]:checked:disabled + label:before {
   border-radius: 6px;
 }
 .more-info.about-more-info {
-  margin-top: 40px;
+  margin-top: 16px;
 }
 @media screen and (max-width: 992px) {
   .more-info.about-more-info {
