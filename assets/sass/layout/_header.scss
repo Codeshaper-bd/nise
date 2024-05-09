@@ -845,6 +845,9 @@
 		@include widther(992px) {
 			li {
 				position: relative;
+				&:last-child>a {
+					margin-right: 0px;
+				}
 			}
 			>ul>li>a {
 				padding: 10px 0px;

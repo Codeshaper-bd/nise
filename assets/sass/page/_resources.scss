@@ -3,9 +3,10 @@
   .resource-title {
     font-size: 18px;
     font-weight: 600;
-    margin-bottom: 20px;
     color: $dark-gray;
-
+    text-align: center;
+    padding: 10px 0px;
+    border-bottom: 1px solid $border-color;
   }
 
   .wpo-resources-item {

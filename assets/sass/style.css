@@ -1313,6 +1313,7 @@ a:hover {
   padding-top: 0px;
   color: #676767;
   padding: 0px 30px;
+  padding-bottom: 15px;
 }
 
 /*--------------------------------------------------------------
@@ -2018,6 +2019,9 @@ a:hover {
   }
   .wpo-site-header #navbar li {
     position: relative;
+  }
+  .wpo-site-header #navbar li:last-child > a {
+    margin-right: 0px;
   }
   .wpo-site-header #navbar > ul > li > a {
     padding: 10px 0px;
@@ -6884,8 +6888,10 @@ input[type=checkbox]:checked:disabled + label:before {
 .wpo-resources-pg-section .resource-title {
   font-size: 18px;
   font-weight: 600;
-  margin-bottom: 20px;
   color: #232f4b;
+  text-align: center;
+  padding: 10px 0px;
+  border-bottom: 1px solid #eeeeee;
 }
 .wpo-resources-pg-section .wpo-resources-item {
   padding: 24px;
