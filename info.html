@@ -48,7 +48,7 @@
     <!-- end preloader -->
     <!-- Start header -->
     <header id="header">
-      <div class="top-header">
+      <div class="top-header ">
         <div class="container">
           <div class="d-flex align-items-center">
             <div class="flex-1">
@@ -80,41 +80,39 @@
                       </svg>
                     </a>
                   </li>
-
+                  <li class="d-lg-none">
+                    <div class="mobail-menu">
+                      <button type="button" class="navbar-toggler open-btn">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar first-angle"></span>
+                        <span class="icon-bar middle-angle"></span>
+                        <span class="icon-bar last-angle"></span>
+                      </button>
+                    </div>
+                  </li>
                 </ul>
               </div>
               <a target="_blank"
                 href="https://visitor.r20.constantcontact.com/manage/optin?v=001ZD2x7YKBnjdxR5MKqJ5aFFuHVylceKrfr6-CGkSNi0MFji00UbM7Nna5YGXuNV1FoCg_H0w_VMHgldoRxPJOGvEXJTt4e8h3rvDFp-zY1_SSXW3NpwBydAkXlb2O58fINAC1nEY7YlZ2jcS5b7bqsw%3D%3D"
-                class="btn-subscribe mt-3">
+                class="btn-subscribe d-none d-lg-flex mt-3">
                 <svg viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M21.75 6.80273V17.3027C21.75 18.5454 20.7426 19.5527 19.5 19.5527H4.5C3.25736 19.5527 2.25 18.5454 2.25 17.3027V6.80273M21.75 6.80273C21.75 5.56009 20.7426 4.55273 19.5 4.55273H4.5C3.25736 4.55273 2.25 5.56009 2.25 6.80273M21.75 6.80273V7.04545C21.75 7.82678 21.3447 8.55218 20.6792 8.96168L13.1792 13.5771C12.4561 14.0221 11.5439 14.0221 10.8208 13.5771L3.32078 8.96168C2.65535 8.55218 2.25 7.82678 2.25 7.04545V6.80273"
                     stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
-                <span class="ml-2">Join Our Mailing List</span>
+                <span class="ml-2 d-none d-md-block">Join Our Mailing List</span>
+                <span class="d-md-none">Join Now</span>
               </a>
+
             </div>
-
-
           </div>
         </div>
       </div>
 
-      <nav class="navigation navbar navbar-expand-lg navbar-light wpo-site-header">
+      <nav class="navigation navbar navbar-expand-lg navbar-light wpo-site-header d-none d-lg-block ">
         <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-3 col-md-3 col-3 d-lg-none dl-block">
-              <div class="mobail-menu">
-                <button type="button" class="navbar-toggler open-btn">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar first-angle"></span>
-                  <span class="icon-bar middle-angle"></span>
-                  <span class="icon-bar last-angle"></span>
-                </button>
-              </div>
-            </div>
-
-            <div class="col-lg-10 col-md-1 col-1">
+          <div class="flex align-items-center w-100 px-2">
+            <div class="flex-1">
               <div id="navbar" class="collapse navbar-collapse navigation-holder justify-content-start">
                 <button class="menu-close"><i class="ti-close"></i></button>
                 <ul class="nav navbar-nav mb-2 mb-lg-0">
@@ -144,7 +142,7 @@
                       <li><a href="/nise-scholarship.html">Nise Scholarships 2024</a></li>
                       <li><a href="/awards.html">Nise PD Grants</a></li>
                       <li><a href="/grants-bob-abrams.html">Robert Abram Memorial Grant</a></li>
-                      <li><a href="/nise-scholarship.html">Schoolership Awardess</a></li>
+                      <li><a href="/scholarships-awards.html">Schoolership Awardess</a></li>
                     </ul>
                   </li>
                   <li class="menu-item-has-children">
@@ -158,7 +156,7 @@
                 </ul>
               </div><!-- end of nav-collapse -->
             </div>
-            <div class="col-lg-2 col-md-2 col-2">
+            <div class="flex-none">
               <div class="header-right">
                 <div class="header-search-form-wrapper">
                   <div class="cart-search-contact">
@@ -247,13 +245,58 @@
       </nav>
     </header>
     <!-- end of header -->
+    <!-- mobile menu -->
+    <div class="wpo-site-header">
+      <div id="navbar" class="collapse navbar-collapse navigation-holder justify-content-start">
+        <button class="menu-close"><i class="ti-close"></i></button>
+        <ul class="nav navbar-nav mb-2 mb-lg-0">
+          <li><a href="index.html">Home</a></li>
+          <li class="menu-item-has-children">
+            <a href="/about.html">About</a>
+            <ul class="sub-menu">
+              <li><a href="/about.html">About Nise</a></li>
+              <li><a href="/board-of-dirs.html">Board of directors</a></li>
+              <li><a target="_blank" href="http://www.nise.us/files/bylaws/NISE_Bylaws_(ver_2019-09-09).pdf">By
+                  laws (v2019)</a></li>
+            </ul>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="info.html">Conferenct & Events</a>
+            <ul class="sub-menu">
+              <li><a href="/info.html">Nise 2023:info</a></li>
+              <li><a target="_blank"
+                  href="http://www.nise.us/forms/cnf-reg/view-reports/rpt-schedule-summary.php?sort=time&action=View+Report">Nise
+                  2023: presentations</a></li>
+            </ul>
+          </li>
+          <li><a href="/news.html">News</a></li>
+          <li class="menu-item-has-children">
+            <a href="/awards.html">Awards</a>
+            <ul class="sub-menu">
+              <li><a href="/nise-scholarship.html">Nise Scholarships 2024</a></li>
+              <li><a href="/awards.html">Nise PD Grants</a></li>
+              <li><a href="/grants-bob-abrams.html">Robert Abram Memorial Grant</a></li>
+              <li><a href="/scholarships-awards.html">Schoolership Awardess</a></li>
+            </ul>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="/resources-web.html">Resources</a>
+            <ul class="sub-menu">
+              <li><a href="/resources-web.html">Website</a></li>
+              <li><a href="/resources-social.html">Social Media</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact US</a></li>
+        </ul>
+      </div><!-- end of nav-collapse -->
+    </div>
+    <!-- mobile menu end -->
     <!-- breadcumb start -->
     <div class="wpo-breadcumb-area">
       <div class="container">
         <div class="row">
           <div class="col-12">
             <div class="wpo-breadcumb-wrap">
-              <h2>Info Nise 2023</h2>
               <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><span>Info</span></li>
@@ -307,7 +350,7 @@
 
     <!-- info main section start -->
     <section class="wpo-info-main-section section-padding">
-      <div class="container px-0">
+      <div class="container px-lg-0">
         <div class="row">
           <div class="col-lg-8 space-y-6">
             <div class="card bg-card-shadow">
@@ -376,7 +419,7 @@
               <div class="widget call-widget bg-card-shadow">
                 <h3 class="card-title">Call for Presentations</h3>
                 <div class="card-body">
-                  <div class="flex gap-2 align-items-center">
+                  <div class="d-flex flex-column flex-lg-row gap-2 align-items-center">
                     <div class="flex-none">
                       <a href="#" class="info-image">
                         <img src="./assets/images/all/mic.jpg" class="img-covered" alt="">

@@ -1484,6 +1484,11 @@ a:hover {
 .top-header {
   padding: 40px 0px;
 }
+@media screen and (max-width: 992px) {
+  .top-header {
+    padding-bottom: 0px;
+  }
+}
 
 .wpo-site-header {
   background: linear-gradient(90deg, #fff, #EBEBE9 0%, #F9F8F6 40%, #F9F1EF 100%, #fff);
@@ -3750,6 +3755,11 @@ a:hover {
   width: 250px;
   height: 200px;
   border-radius: 6px;
+}
+@media screen and (max-width: 768px) {
+  .homepage-blog-section .wpo-scholarship-blog-single-item .wpo-scholarship-blog-img {
+    width: 100%;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -6776,9 +6786,6 @@ input[type=checkbox]:checked:disabled + label:before {
   padding-right: 15px;
 }
 
-.team-page-wrapper {
-  padding: 100px 0px;
-}
 .team-page-wrapper .team-area {
   margin-top: 40px;
 }
@@ -6791,9 +6798,13 @@ input[type=checkbox]:checked:disabled + label:before {
   padding-bottom: 16px;
   background: #fff;
   box-shadow: 0px 1px 15px 0px rgba(62, 65, 159, 0.1);
-  position: relative;
   z-index: 99;
   transition: all 0.3s;
+}
+@media all and (max-width: 768px) {
+  .team-single-item {
+    flex-direction: column;
+  }
 }
 .team-single-item:hover {
   box-shadow: 0px 1px 15px 0px rgba(62, 65, 159, 0.3);
@@ -7108,6 +7119,11 @@ input[type=checkbox]:checked:disabled + label:before {
   gap: 12px;
   padding: 0px;
 }
+@media screen and (max-width: 768px) {
+  .wpo-scholarship-blog-single-item .card-body {
+    flex-direction: column;
+  }
+}
 .wpo-scholarship-blog-single-item .wpo-scholarship-blog-img {
   flex: none;
   width: 230px;
@@ -7129,6 +7145,11 @@ input[type=checkbox]:checked:disabled + label:before {
 .wpo-scholarship-blog-single-item.wpo-blog-reverse .card-body {
   flex-direction: row-reverse;
 }
+@media screen and (max-width: 768px) {
+  .wpo-scholarship-blog-single-item.wpo-blog-reverse .card-body {
+    flex-direction: column;
+  }
+}
 
 .more-info {
   background-color: #f4f4f4;
@@ -7137,6 +7158,11 @@ input[type=checkbox]:checked:disabled + label:before {
 }
 .more-info.about-more-info {
   margin-top: 40px;
+}
+@media screen and (max-width: 992px) {
+  .more-info.about-more-info {
+    margin-top: 0px;
+  }
 }
 .more-info.about-more-info .more-info-subheading h2 {
   font-size: 14px;
