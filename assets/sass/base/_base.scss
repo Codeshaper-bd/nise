@@ -7,6 +7,7 @@ html {
 :root {
     scroll-behavior: unset;
 }
+
 body {
     font-family: $base-font;
     color:$body-color;
@@ -17,8 +18,18 @@ body {
     @include media-query( 767px ) {
         font-size: 14px;
     }
+    min-width: 100%;
+    min-height: 100%;
+    background: url('./../images/all/body_bg.png') 50% 0 no-repeat #e8e8e8;
+    background-position: center center;
 }
-
+.page-wrapper{
+    background-color: #fff;
+    .container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
 p {
     font-size: 16px;
     color: $body-color;
