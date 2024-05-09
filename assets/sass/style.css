@@ -1628,6 +1628,19 @@ a:hover {
   padding-right: 0;
 }
 
+@media screen and (min-width: 991px) {
+  .wpo-site-header #navbar ul {
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 35px;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .wpo-site-header #navbar ul {
+    padding-right: 10px;
+  }
+}
 @media (max-width: 991px) {
   .wpo-site-header .container {
     width: 100%;

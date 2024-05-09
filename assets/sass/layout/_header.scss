@@ -389,6 +389,22 @@
 	padding-right: 0;
 }
 
+@media screen and (min-width: 991px) {
+	.wpo-site-header #navbar ul {
+		width: 100%;
+		justify-content: space-between;
+		padding-right: 35px;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.wpo-site-header #navbar ul {
+		padding-right: 10px;
+	}
+}
+
+
 @media (max-width: 991px) {
 
 	.wpo-site-header .container {
@@ -845,10 +861,12 @@
 		@include widther(992px) {
 			li {
 				position: relative;
+
 				&:last-child>a {
 					margin-right: 0px;
 				}
 			}
+
 			>ul>li>a {
 				padding: 10px 0px;
 				margin-right: 35px;
