@@ -1,8 +1,14 @@
 .wpo-footer-area{
-    margin: 0px 30px;
+    margin: 0px 0px;
     padding: 30px 30px;
     padding-top: 40px;
-    border-top: 1px solid $border-color;
+    border-top: 1px solid #eeeeee;
+    background-color: #191A1F;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     .footer-nav-item{
         display: flex;
         flex-wrap: wrap;
@@ -11,9 +17,9 @@
             gap:16px;
         }
         a{
-            font-size: 16px;
+            font-size: 15px;
             font-weight: 600;
-            color: $heading-color;
+            color: #e3e3e3;
             display: block;
             text-transform: uppercase;
             &:hover{
@@ -27,4 +33,12 @@
         flex-wrap: wrap;
         align-items: center;
     }
+
+
+}
+.copyright-btm {
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
 }

@@ -624,7 +624,7 @@
 		font-size: 30px;
 		line-height: 32px;
 		font-size: calc-rem-value(30);
-		color: $dark-gray;
+		color: #fff;
 	}
 
 	>div {
@@ -822,6 +822,10 @@
 
 
 .wpo-site-header {
+
+	background: #191A1F;
+    padding: 10px 15px 0px;
+	
 	#navbar>ul>li>a {
 		text-transform: uppercase;
 		font-size: 16px;
@@ -871,7 +875,7 @@
 				padding: 10px 0px;
 				margin-right: 35px;
 				display: block;
-				color: #232f4b;
+				color: #fff;
 				font-weight: 500;
 				position: relative;
 				display: inline-block;
@@ -1200,7 +1204,7 @@
 				display: block;
 				width: 25px;
 				height: 2px;
-				background: $text-color;
+				background: #fff;
 				margin-bottom: 6px;
 				margin-left: auto;
 			}

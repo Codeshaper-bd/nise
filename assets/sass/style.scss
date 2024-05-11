@@ -136,13 +136,13 @@ Version:        1.0.0
 
 .wpo-page-title {
 	background-color: #273d50;
-	margin-top: 10px;
-	padding: 12px 0px;
+	padding: 20px 0px;
 	h1 {
 		text-align: center;
 		color: #fff;
 		text-transform: uppercase;
 		margin-bottom: 0px;
+		font-size: 22px
 	}
 }
 
@@ -276,6 +276,7 @@ Version:        1.0.0
 	border: none;
 	background: #fff;
 	box-shadow: 0px 1px 15px 0px rgba(62, 65, 159, 0.2);
+	border: 1px solid#DDD !important;
 
 	.card-title {
 		padding-left: 12px;

@@ -4,6 +4,20 @@
 --------------------------------------------------------------*/
 .wpo-contact-pg-section {
 
+	.email-box{
+		font-size: 17px;
+		line-height: 27px;
+		margin-bottom: 20px;
+		background: rgba(236, 141, 6, 0.1411764706);
+		padding: 15px 20px;
+		border-radius: 6px;
+
+		p{
+			color: #ec8d06;
+			margin-bottom: 0;
+		}
+	}
+
 	.wpo-contact-title{
 	
 		margin-bottom: 50px;
@@ -106,7 +120,7 @@
 	.office-info {
 		padding-bottom: 40px;
 		@media(max-width:767px){
-			padding-bottom: 60px;
+			padding-bottom:35px;
 		}
 
 		.col{
@@ -130,7 +144,9 @@
 		.office-info-item{
 			text-align: center;
 			box-shadow: 0px 5px 15px 0px rgba(62, 65, 159, 0.2);
-			padding: 15px;
+			padding: 30px;
+			min-height: 215px;
+			border-radius: 8px;
 			.office-info-icon{
 				width: 55px;
 				height: 55px;
@@ -155,7 +171,7 @@
 				h2{
 					font-size: 18px;
 					font-weight: 500;
-					margin: 8px 0;
+					margin: 10px 0px 12px;
 				}
 				p{
 					margin-bottom: 0;
@@ -178,6 +194,7 @@
 	@media(max-width:767px){
 		padding: 30px;
 		padding-top: 50px;
+		margin-bottom: 30px;
 	}
 }
   

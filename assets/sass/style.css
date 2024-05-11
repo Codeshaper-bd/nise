@@ -117,14 +117,14 @@ Version:        1.0.0
 
 .wpo-page-title {
   background-color: #273d50;
-  margin-top: 10px;
-  padding: 12px 0px;
+  padding: 20px 0px;
 }
 .wpo-page-title h1 {
   text-align: center;
   color: #fff;
   text-transform: uppercase;
   margin-bottom: 0px;
+  font-size: 22px;
 }
 
 /*--------------------------------------------------------------
@@ -570,7 +570,7 @@ a:hover {
   display: flex;
   align-items: center;
   gap: 5px;
-  background-color: #454f5b;
+  background-color: #191a1f;
   color: white;
   font-size: 16px;
   padding: 11px 20px;
@@ -1816,7 +1816,7 @@ a:hover {
   font-size: 30px;
   line-height: 32px;
   font-size: 2rem;
-  color: #232f4b;
+  color: #fff;
 }
 .cart-search-contact > div {
   float: left;
@@ -1991,6 +1991,8 @@ a:hover {
 }
 
 .wpo-site-header {
+  background: #191A1F;
+  padding: 10px 15px 0px;
   /* navigation open and close btn hide for width screen */
   /* style for navigation less than 992px */
   /*navbar collaps less then 992px*/
@@ -2040,7 +2042,7 @@ a:hover {
     padding: 10px 0px;
     margin-right: 35px;
     display: block;
-    color: #232f4b;
+    color: #fff;
     font-weight: 500;
     position: relative;
     display: inline-block;
@@ -2294,7 +2296,7 @@ a:hover {
   display: block;
   width: 25px;
   height: 2px;
-  background: #444444;
+  background: #fff;
   margin-bottom: 6px;
   margin-left: auto;
 }
@@ -2828,10 +2830,16 @@ a:hover {
 }
 
 .wpo-footer-area {
-  margin: 0px 30px;
+  margin: 0px 0px;
   padding: 30px 30px;
   padding-top: 40px;
   border-top: 1px solid #eeeeee;
+  background-color: #191A1F;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .wpo-footer-area .footer-nav-item {
   display: flex;
@@ -2844,9 +2852,9 @@ a:hover {
   }
 }
 .wpo-footer-area .footer-nav-item a {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
-  color: #232f4b;
+  color: #e3e3e3;
   display: block;
   text-transform: uppercase;
 }
@@ -2858,6 +2866,13 @@ a:hover {
   gap: 16px;
   flex-wrap: wrap;
   align-items: center;
+}
+
+.copyright-btm {
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
 }
 
 .sticky-header {
@@ -3651,6 +3666,21 @@ a:hover {
 /*--------------------------------------------------------------
 5. Home-style-2
 --------------------------------------------------------------*/
+.feed-area {
+  max-height: 665px;
+  overflow: auto;
+  margin-bottom: 30px;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.feed-area::-webkit-scrollbar {
+  display: none;
+}
+.feed-area iframe {
+  width: 100% !important;
+  background: #f9faff !important;
+}
+
 /*--------------------------------------------------------------
 5.1 main-blog-area
 --------------------------------------------------------------*/
@@ -5103,7 +5133,7 @@ a:hover {
   /*** format-video ***/
 }
 .wpo-blog-pg-section .wpo-blog-content .post {
-  margin-bottom: 15px;
+  margin-bottom: 40px;
 }
 @media (max-width: 991px) {
   .wpo-blog-pg-section .wpo-blog-content .post {
@@ -6034,6 +6064,18 @@ a:hover {
 /*--------------------------------------------------------------
 13. wpo-contact-pg-section
 --------------------------------------------------------------*/
+.wpo-contact-pg-section .email-box {
+  font-size: 17px;
+  line-height: 27px;
+  margin-bottom: 20px;
+  background: rgba(236, 141, 6, 0.1411764706);
+  padding: 15px 20px;
+  border-radius: 6px;
+}
+.wpo-contact-pg-section .email-box p {
+  color: #ec8d06;
+  margin-bottom: 0;
+}
 .wpo-contact-pg-section .wpo-contact-title {
   margin-bottom: 50px;
 }
@@ -6155,7 +6197,7 @@ a:hover {
 }
 @media (max-width: 767px) {
   .wpo-contact-pg-section .office-info {
-    padding-bottom: 60px;
+    padding-bottom: 35px;
   }
 }
 @media (max-width: 1200px) {
@@ -6171,7 +6213,9 @@ a:hover {
 .wpo-contact-pg-section .office-info .office-info-item {
   text-align: center;
   box-shadow: 0px 5px 15px 0px rgba(62, 65, 159, 0.2);
-  padding: 15px;
+  padding: 30px;
+  min-height: 215px;
+  border-radius: 8px;
 }
 .wpo-contact-pg-section .office-info .office-info-item .office-info-icon {
   width: 55px;
@@ -6195,7 +6239,7 @@ a:hover {
 .wpo-contact-pg-section .office-info .office-info-item .office-info-text h2 {
   font-size: 18px;
   font-weight: 500;
-  margin: 8px 0;
+  margin: 10px 0px 12px;
 }
 .wpo-contact-pg-section .office-info .office-info-item .office-info-text p {
   margin-bottom: 0;
@@ -6214,6 +6258,7 @@ a:hover {
   .wpo-contact-pg-section .wpo-contact-form-area {
     padding: 30px;
     padding-top: 50px;
+    margin-bottom: 30px;
   }
 }
 
@@ -6622,7 +6667,7 @@ input[type=checkbox]:checked:disabled + label:before {
   padding: 25px 20px 5px;
   border-radius: 6px;
   padding-bottom: 0px;
-  background: url(http://www.nise.us/images/bg1.jpg);
+  background: url(../../../assets/images/about/bg1.jpg);
   background-position: center center;
   background-size: cover;
 }
@@ -7019,6 +7064,7 @@ input[type=checkbox]:checked:disabled + label:before {
   line-height: 20px;
 }
 .wpo-scholarship-blog-single-item .card-body {
+  display: flex;
   padding: 0px;
 }
 @media screen and (max-width: 768px) {
@@ -7028,10 +7074,16 @@ input[type=checkbox]:checked:disabled + label:before {
 }
 .wpo-scholarship-blog-single-item .wpo-scholarship-blog-img {
   flex: none;
-  width: 230px;
+  width: 200px;
   height: -moz-fit-content;
   height: fit-content;
   overflow: hidden;
+  margin-right: 25px;
+}
+@media screen and (max-width: 620px) {
+  .wpo-scholarship-blog-single-item .wpo-scholarship-blog-img {
+    width: 100%;
+  }
 }
 .wpo-scholarship-blog-single-item .wpo-scholarship-blog-img img {
   border-radius: 4px;
@@ -7041,15 +7093,23 @@ input[type=checkbox]:checked:disabled + label:before {
 .wpo-scholarship-blog-single-item .wpo-scholarship-blog-img img:hover {
   transform: scale(1.1);
 }
+.wpo-scholarship-blog-single-item .wpo-scholarship-content {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 767px) {
+  .wpo-scholarship-blog-single-item .wpo-scholarship-content {
+    margin-top: 15px;
+  }
+}
 .wpo-scholarship-blog-single-item .wpo-scholarship-content h3 {
   font-size: 22px;
 }
 .wpo-scholarship-blog-single-item .wpo-scholarship-content p {
   font-size: 16px;
   line-height: 26px;
-}
-.wpo-scholarship-blog-single-item.wpo-blog-reverse .card-body {
-  flex-direction: row-reverse;
+  margin-bottom: 10px;
 }
 @media screen and (max-width: 768px) {
   .wpo-scholarship-blog-single-item.wpo-blog-reverse .card-body {
@@ -7120,6 +7180,7 @@ input[type=checkbox]:checked:disabled + label:before {
   border: none;
   background: #fff;
   box-shadow: 0px 1px 15px 0px rgba(62, 65, 159, 0.2);
+  border: 1px solid #DDD !important;
 }
 .bg-card-shadow .card-title {
   padding-left: 12px;

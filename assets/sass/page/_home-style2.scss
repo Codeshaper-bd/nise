@@ -1,6 +1,22 @@
 /*--------------------------------------------------------------
 5. Home-style-2
 --------------------------------------------------------------*/
+.feed-area {
+    max-height: 665px;
+    overflow: auto;
+    margin-bottom: 30px;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+ 
+    iframe {
+        width: 100% !important;
+        background: #f9faff !important;
+    }
+}
 
 /*--------------------------------------------------------------
 5.1 main-blog-area
