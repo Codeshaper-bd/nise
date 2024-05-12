@@ -2387,6 +2387,7 @@ a:hover {
 }
 .wpo-site-header .header-right .header-right-menu-wrapper .header-right-menu-wrap .logo {
   margin-bottom: 40px;
+  max-width: 220px;
 }
 .wpo-site-header .header-right .header-right-menu-wrapper .header-right-menu-wrap .widget {
   margin-bottom: 30px;
@@ -2397,23 +2398,30 @@ a:hover {
   margin-bottom: 25px;
 }
 .wpo-site-header .header-right .header-right-menu-wrapper .header-right-menu-wrap .project-widget .post {
-  overflow: hidden;
-}
-.wpo-site-header .header-right .header-right-menu-wrapper .header-right-menu-wrap .project-widget .posts > .post + .post {
-  margin-top: 15px;
-  padding-top: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 .wpo-site-header .header-right .header-right-menu-wrapper .header-right-menu-wrap .project-widget .post .img-holder {
-  width: 70px;
-  float: left;
+  flex: none;
 }
 .wpo-site-header .header-right .header-right-menu-wrapper .header-right-menu-wrap .project-widget .post .img-holder img {
-  border-radius: 6px;
+  width: 120px;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 2px;
 }
 .wpo-site-header .header-right .header-right-menu-wrapper .header-right-menu-wrap .project-widget .post .details {
-  width: calc(100% - 70px);
-  float: left;
-  padding-left: 20px;
+  flex: 1 1 auto;
+}
+.wpo-site-header .header-right .header-right-menu-wrapper .header-right-menu-wrap .project-widget .post .details .date {
+  font-size: 12px;
+}
+.wpo-site-header .header-right .header-right-menu-wrapper .header-right-menu-wrap .project-widget .post .details h4 {
+  margin-top: 0px;
+  font-size: 14px;
+  line-height: 20px;
 }
 .wpo-site-header .header-right .header-right-menu-wrapper .header-right-menu-wrap .project-widget .post h4 {
   font-size: 19px;

@@ -1315,6 +1315,7 @@
 
 			.logo {
 				margin-bottom: 40px;
+				max-width: 220px;
 			}
 
 
@@ -1330,28 +1331,35 @@
 
 			.project-widget {
 				.post {
-					overflow: hidden;
-				}
-
-				.posts>.post+.post {
-					margin-top: 15px;
-					padding-top: 15px;
-				}
-
-				.post .img-holder {
-					width: 70px;
-					float: left;
-
-					img {
-						border-radius: 6px;
+					margin-bottom: 20px;
+					display: flex;
+					align-items: center;
+					gap:10px;
+					.img-holder{
+						flex: none;
+						img{
+							width: 120px;
+							height: fit-content;
+							border-radius: 2px;
+						}
+					}
+					.details{
+						flex: 1 1 auto;
+						.date{
+							font-size: 12px;
+						}
+						h4{
+							margin-top: 0px;
+							font-size: 14px;
+							line-height: 20px;
+						}
 					}
 				}
 
-				.post .details {
-					width: calc(100% - 70px);
-					float: left;
-					padding-left: 20px;
-				}
+				
+
+	
+		
 
 				.post h4 {
 					font-size: 19px;
