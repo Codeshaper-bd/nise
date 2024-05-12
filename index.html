@@ -57,7 +57,7 @@
             </div>
             <div class="flex-none">
               <div class="social-icon-list">
-                <ul class="d-flex justify-content-end list-unstyled gap-2">
+                <ul class="d-flex justify-content-end align-items-center list-unstyled gap-2">
                   <li>
                     <a href="#">
                       <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
@@ -67,7 +67,6 @@
                           d="M26.572,29.036h4.917l0.772-4.995h-5.69v-2.73c0-2.075,0.678-3.915,2.619-3.915h3.119v-4.359c-0.548-0.074-1.707-0.236-3.897-0.236c-4.573,0-7.254,2.415-7.254,7.917v3.323h-4.701v4.995h4.701v13.729C22.089,42.905,23.032,43,24,43c0.875,0,1.729-0.08,2.572-0.194V29.036z">
                         </path>
                       </svg>
-
                     </a>
                   </li>
                   <li>
@@ -79,6 +78,23 @@
                         </path>
                       </svg>
                     </a>
+                  </li>
+                  <li class="d-lg-none relative">
+                    <div class="header-search-form-wrapper">
+                      <div class="cart-search-contact">
+                        <button class="search-toggle-btn">
+                          <i class="fi flaticon-magnifiying-glass"></i>
+                        </button>
+                        <div class="header-search-form">
+                          <form>
+                            <div>
+                              <input type="text" class="form-control" placeholder="Search here...">
+                              <button type="submit"><i class="fi flaticon-magnifiying-glass"></i></button>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
                   </li>
                   <li class="d-lg-none">
                     <div class="mobail-menu">
@@ -157,7 +173,9 @@
               <div class="header-right">
                 <div class="header-search-form-wrapper">
                   <div class="cart-search-contact">
-                    <button class="search-toggle-btn"><i class="fi flaticon-magnifiying-glass"></i></button>
+                    <button class="search-toggle-btn">
+                      <i class="fi flaticon-magnifiying-glass"></i>
+                    </button>
                     <div class="header-search-form">
                       <form>
                         <div>
@@ -243,7 +261,7 @@
       </header>
       <!-- end of header -->
       <!-- mobile menu -->
-      <div class="wpo-site-header">
+      <div class="wpo-site-header wpo-site-mobile-menu">
         <div id="navbar" class="collapse navbar-collapse navigation-holder justify-content-start">
           <button class="menu-close"><i class="ti-close"></i></button>
           <ul class="nav navbar-nav mb-2 mb-lg-0">
@@ -473,22 +491,31 @@
         </div>
         <!-- end featured posts -->
 
-        <div class="container mt-4">
+        <div class="container feed-container mt-4">
           <div class="row">
             <div class="col-lg-4">
-              <div class="feed-area">
-                <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true" class="" title="Twitter Timeline" src="https://syndication.twitter.com/srv/timeline-profile/screen-name/NISE_US?dnt=false&amp;embedId=twitter-widget-0&amp;features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfZm9zbnJfc29mdF9pbnRlcnZlbnRpb25zX2VuYWJsZWQiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X21peGVkX21lZGlhXzE1ODk3Ijp7ImJ1Y2tldCI6InRyZWF0bWVudCIsInZlcnNpb24iOm51bGx9LCJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYmlyZHdhdGNoX3Bpdm90c19lbmFibGVkIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19kdXBsaWNhdGVfc2NyaWJlc190b19zZXR0aW5ncyI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdXNlX3Byb2ZpbGVfaW1hZ2Vfc2hhcGVfZW5hYmxlZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdmlkZW9faGxzX2R5bmFtaWNfbWFuaWZlc3RzXzE1MDgyIjp7ImJ1Y2tldCI6InRydWVfYml0cmF0ZSIsInZlcnNpb24iOm51bGx9LCJ0ZndfbGVnYWN5X3RpbWVsaW5lX3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9mcm9udGVuZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9fQ%3D%3D&amp;frame=false&amp;hideBorder=false&amp;hideFooter=false&amp;hideHeader=false&amp;hideScrollBar=false&amp;lang=en&amp;maxHeight=650px&amp;origin=http%3A%2F%2Fwww.nise.us%2F&amp;sessionId=7c410f41731981ab0389ebc5bdc9db0022984af3&amp;showHeader=true&amp;showReplies=false&amp;theme=light&amp;transparent=false&amp;widgetsVersion=2615f7e52b7e0%3A1702314776716" style="position: static; visibility: visible; width: 265px; height: 650px; display: block; flex-grow: 1;"></iframe>
+              <div class="feed-area twitter-feed">
+                <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true"
+                  allowfullscreen="true" class="" title="Twitter Timeline"
+                  src="https://syndication.twitter.com/srv/timeline-profile/screen-name/NISE_US?dnt=false&amp;embedId=twitter-widget-0&amp;features=eyJ0ZndfdGltZWxpbmVfbGlzdCI6eyJidWNrZXQiOltdLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2ZvbGxvd2VyX2NvdW50X3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19yZWZzcmNfc2Vzc2lvbiI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfZm9zbnJfc29mdF9pbnRlcnZlbnRpb25zX2VuYWJsZWQiOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X21peGVkX21lZGlhXzE1ODk3Ijp7ImJ1Y2tldCI6InRyZWF0bWVudCIsInZlcnNpb24iOm51bGx9LCJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3Nob3dfYmlyZHdhdGNoX3Bpdm90c19lbmFibGVkIjp7ImJ1Y2tldCI6Im9uIiwidmVyc2lvbiI6bnVsbH0sInRmd19kdXBsaWNhdGVfc2NyaWJlc190b19zZXR0aW5ncyI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdXNlX3Byb2ZpbGVfaW1hZ2Vfc2hhcGVfZW5hYmxlZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdmlkZW9faGxzX2R5bmFtaWNfbWFuaWZlc3RzXzE1MDgyIjp7ImJ1Y2tldCI6InRydWVfYml0cmF0ZSIsInZlcnNpb24iOm51bGx9LCJ0ZndfbGVnYWN5X3RpbWVsaW5lX3N1bnNldCI6eyJidWNrZXQiOnRydWUsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9mcm9udGVuZCI6eyJidWNrZXQiOiJvbiIsInZlcnNpb24iOm51bGx9fQ%3D%3D&amp;frame=false&amp;hideBorder=false&amp;hideFooter=false&amp;hideHeader=false&amp;hideScrollBar=false&amp;lang=en&amp;maxHeight=650px&amp;origin=http%3A%2F%2Fwww.nise.us%2F&amp;sessionId=7c410f41731981ab0389ebc5bdc9db0022984af3&amp;showHeader=true&amp;showReplies=false&amp;theme=light&amp;transparent=false&amp;widgetsVersion=2615f7e52b7e0%3A1702314776716">
+
+                </iframe>
               </div>
             </div>
             <div class="col-lg-4">
               <div class="feed-area">
-                <iframe name="f5c632aa624140271" 
-                data-testid="fb:page Facebook Social Plugin" title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v3.2/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dfbcb2939ea2cacecb%26domain%3Dwww.nise.us%26is_canvas%3Dfalse%26origin%3Dhttp%253A%252F%252Fwww.nise.us%252Ff9d52700a9ee0728d%26relation%3Dparent.parent&amp;height=650&amp;hide_cover=true&amp;href=https%3A%2F%2Fwww.facebook.com%2Fnilscied%2F&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=true&amp;tabs=timeline&amp" style="border: none; visibility: visible; width: 100%; height: 650px;" class=""></iframe>
+                <iframe name="f5c632aa624140271" data-testid="fb:page Facebook Social Plugin"
+                  title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true" allowfullscreen="true"
+                  scrolling="no" allow="encrypted-media"
+                  src="https://www.facebook.com/v3.2/plugins/page.php?adapt_container_width=true&amp;app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dfbcb2939ea2cacecb%26domain%3Dwww.nise.us%26is_canvas%3Dfalse%26origin%3Dhttp%253A%252F%252Fwww.nise.us%252Ff9d52700a9ee0728d%26relation%3Dparent.parent&amp;height=650&amp;hide_cover=true&amp;href=https%3A%2F%2Fwww.facebook.com%2Fnilscied%2F&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=true&amp;tabs=timeline&amp"
+                  style="border: none; visibility: visible; width: 100%; height: 650px;" class=""></iframe>
               </div>
             </div>
             <div class="col-lg-4">
               <div class="feed-area">
-                <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=public-calendar%40nise.us&amp;color=%23853104&amp;src=nise.us_2cts8o724cc8g3ap5rm3jvtv4o%40group.calendar.google.com&amp;color=%23FF0000&amp;src=nise.us_s0fhh83i8lklj4vc317hatag1o%40group.calendar.google.com&amp;color=%23125A12&amp;ctz=America%2FChicago" style="border-width:0" height="665" frameborder="0" scrolling="no"></iframe>
+                <iframe
+                  src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;mode=AGENDA&amp;height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=public-calendar%40nise.us&amp;color=%23853104&amp;src=nise.us_2cts8o724cc8g3ap5rm3jvtv4o%40group.calendar.google.com&amp;color=%23FF0000&amp;src=nise.us_s0fhh83i8lklj4vc317hatag1o%40group.calendar.google.com&amp;color=%23125A12&amp;ctz=America%2FChicago"
+                  style="border-width:0" height="665" frameborder="0" scrolling="no"></iframe>
               </div>
             </div>
 
@@ -508,7 +535,7 @@
         </div>
         <div class="mt-2 copyright-message">
           <p></p>
-          <p> NISE is a <a href="#">NSTA</a> Associated Group</p>
+          <p> NISE is a <a href="#">NSTA</a> Associated Group </p>
           <p> <a href="#"> Privacy Policy</a></p>
         </div>
       </footer>

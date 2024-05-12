@@ -137,6 +137,9 @@ Version:        1.0.0
 .wpo-page-title {
 	background-color: #273d50;
 	padding: 20px 0px;
+@media screen and (max-width: 991px) {
+	margin-top: 16px;
+}
 	h1 {
 		text-align: center;
 		color: #fff;
@@ -288,8 +291,9 @@ Version:        1.0.0
 		padding-top: 0px;
 	}
 }
-.bg-gradient-shadow{
-	background:linear-gradient(to right , #f8fafc, #f0fdf4, #f4f4f4) !important;
+
+.bg-gradient-shadow {
+	background: linear-gradient(to right, #f8fafc, #f0fdf4, #f4f4f4) !important;
 }
 
 .w-full-map {
@@ -312,4 +316,27 @@ Version:        1.0.0
 
 a {
 	color: $theme-primary-color ;
+}
+
+.feed-area {
+	&.twitter-feed {
+		height: 650px;
+		width: 100%;
+		@media screen and (max-width: 992px) {
+			height: 450px;
+		}
+
+		iframe {
+			width: 100%;
+			height: 100%;
+		}
+	}
+}
+
+.feed-container{
+	.col-lg-4{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 }

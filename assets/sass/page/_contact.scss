@@ -203,7 +203,10 @@
 
 .wpo-contact-map-section {
 	.wpo-contact-map {
-	    height: 550px;
+	    height: 450px;
+			@media screen and (max-width: 992px) {
+				height: 300px;
+			}
 	}
 
     iframe {
