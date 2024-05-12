@@ -1,0 +1,71 @@
+.wpo-presentation {
+  .presentation-title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: $heading-color;
+    margin-top: 16px;
+  }
+h5{
+font-size: 14px;
+font-weight: 600;
+}
+  .wpo-presentation-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+    text-transform: uppercase;
+    margin-top: 18px;
+
+    a {
+      font-size: 14px;
+      font-weight: 500;
+      color: $dark-gray;
+      &:hover{
+        color: $theme-primary-color;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+// table 
+
+.presentation-table{
+  border-radius: 5px;
+  .table-caption{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color:$heading-color;
+    padding: 10px 0px;
+  }
+  th{
+    text-align: center;
+    background-color: $dark-gray;
+    color:white;
+    padding: 15px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .table-group{
+    font-size: 14px;
+    font-weight: 600;
+    color: $heading-color;
+  }
+  td{
+    color: $text-color;
+    white-space: nowrap;
+    a{
+      color:$heading-color;
+      font-weight: 500;
+      &:hover{
+        color: $theme-primary-color;
+       
+      }
+    }
+  }
+
+}

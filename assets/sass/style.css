@@ -7182,6 +7182,71 @@ input[type=checkbox]:checked:disabled + label:before {
   background: linear-gradient(to bottom, #f8fafc, #f0fdf4, #f4f4f4);
 }
 
+.wpo-presentation .presentation-title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #232f4b;
+  margin-top: 16px;
+}
+.wpo-presentation h5 {
+  font-size: 14px;
+  font-weight: 600;
+}
+.wpo-presentation .wpo-presentation-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px;
+  text-transform: uppercase;
+  margin-top: 18px;
+}
+.wpo-presentation .wpo-presentation-list a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #232f4b;
+}
+.wpo-presentation .wpo-presentation-list a:hover {
+  color: #70bf55;
+  text-decoration: underline;
+}
+
+.presentation-table {
+  border-radius: 5px;
+}
+.presentation-table .table-caption {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: #232f4b;
+  padding: 10px 0px;
+}
+.presentation-table th {
+  text-align: center;
+  background-color: #232f4b;
+  color: white;
+  padding: 15px 10px;
+  font-size: 16px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.presentation-table .table-group {
+  font-size: 14px;
+  font-weight: 600;
+  color: #232f4b;
+}
+.presentation-table td {
+  color: #444444;
+  white-space: nowrap;
+}
+.presentation-table td a {
+  color: #232f4b;
+  font-weight: 500;
+}
+.presentation-table td a:hover {
+  color: #70bf55;
+}
+
 .more-info {
   background-color: #f4f4f4;
   padding: 24px;
